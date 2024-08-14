@@ -1,15 +1,17 @@
- body {
-  font-family: "Arial", "Meiryo", sans-serif;
+html {
   font-size: 20px;
+}
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
   text-align: center;
 }
 h1 {
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
-  font: weight 40px;
+  font-size: 40px;
   font-style: normal;
   letter-spacing :1.2em;
-  text-shadow: 3px 1px 3px gray;
+  text-shadow: 1px 1px 3px gray;
   border-bottom: 3px  solid rgb(115, 115, 114);
   text-decoration-color: rgb(115, 115, 114);
 }
@@ -25,3 +27,6 @@ color:rgb(255, 192, 203) ;
 .skyblue  {
     color: skyblue;
   }
+#basic p > strong {
+  font-weight: bold;
+}  
